@@ -1,0 +1,17 @@
+export const HTTP_CODE = {
+  OK: 200,
+  BAD_REQUEST: 400,
+  CONFLICT: 409,
+  UNAUTHORIZED: 401,
+  UNPROCESSABLE_ENTITY: 422,
+  INTERNAL_SERVER_ERROR: 500,
+};
+
+export const HTTP_METHOD = {
+  POST: "POST",
+  GET: "GET",
+  PUT: "PUT",
+  DELETE: "DELETE",
+};
+
+export const MESSAGE_ERROR_EXCEL = "error_excel";
